@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: src/assets/images
+public_folder: assets/images
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'src/Blog'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {label: 'PostImage', name: "postimage", widget: "image"}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Featured', name: 'featured', widget: 'boolean', default: false,required: false}
+      - {label: "Published", name: "published", widget: "boolean"}
+      - { label: 'Body', name: 'body', widget: 'markdown' }

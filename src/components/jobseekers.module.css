@@ -1,0 +1,468 @@
+.intro{
+    width: 100%;
+    height: 111px;
+    background-color: #364a61;
+}
+.introheader{
+    width: 100%;
+    padding-top:12px;
+    text-align: center;
+    margin-top:-16px;
+    position:relative;
+    font-size:38px;
+    font-family:'futura-pt';
+    font-weight:500;
+}
+.introheader p{
+    margin-top:11px;
+}
+.resume{
+    width:100%;
+    height:500px;
+    display:flex;
+}
+.resumeimg{
+    width:100%;
+    height:100%;
+    background: url('../assets/images/resume.png') right no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position:relative;
+    margin-top:-17px;
+}  
+.resumetext{
+    position: relative;
+    float: left;
+    padding-top: 143px;
+    padding-left: 2%;
+}
+.resumetext h1{
+    font:   normal normal 900 40px/35px 'Avenir LT Std 95 Black';
+    margin-left: 15%;
+}
+.resumetext p{
+    width: 531px;
+    font:   normal normal normal 18.5px/30px 'Avenir LT Std 45 Book';
+    padding: 23px;
+    color: white;
+    margin-left: 10%;
+    margin-top: -4%;
+    opacity:0.75;
+}
+.skills{
+    width:100%;
+    height:500px;
+    display:flex;
+}
+.skillsimg{
+    width:100%;
+    height:100%;
+    background: url('../assets/images/skills.png') right no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position:relative;
+    margin-top:-17px;
+    filter:scale(100%);
+}
+.skillstext{
+    position: relative;
+    float: right;
+    padding-top: 143px;
+}
+.skillstext h1{
+    color: white;
+    font:   normal normal 900 40px/18px 'Avenir LT Std 95 Black';
+    margin-left: -9%;
+}
+.skillstext p{
+    width: 498px;
+    font:   normal normal normal 18.5px/30px 'Avenir LT Std 45 Book';
+    padding: 23px;
+    margin-left: -13%;
+    margin-top: -5%;
+    color: white;
+    opacity:0.75;
+}
+.career{
+    width:100%;
+    height:500px;
+    display:flex;
+}
+.careerimg{
+    width:100%;
+    height:100%;
+    background: url('../assets/images/reviews.png') right no-repeat;
+    background-size: 100% 100%;
+    background-position: 0;
+    position:relative;
+    margin-top:-17px;
+}
+.signup{
+    width:100%;
+    height:450px;
+}
+.signupimage{
+    width:100%;
+    height:100%;
+    background-image: url('../assets/images/signupimg.png');
+    background-size: cover;
+    background-position: center;
+}
+.signuptext{
+    text-align:center;
+    position:relative;
+    float:left;
+    display:flex;
+}
+.signtext{
+    width: 430px;
+    height: 180px;
+    background: transparent url('../assets/images/Rectangle.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color:white;
+    border-radius:10px;
+    margin-left: 11%;
+    margin-top: 22%;
+}
+.textsignup{
+    color: white;
+    font-weight: lighter;
+    padding-top: 0;
+}
+.textsignup p{
+    width: 85%;
+    padding: 27px;
+    font: normal normal normal 15px/25px 'Avenir LT Std 55 Roman';
+    opacity:0.75;
+    letter-spacing:0.5px;
+}
+.signupform{
+    text-align: center;
+    position: relative;
+    float: right;
+    height: 100%;
+    margin-top: -447px;
+}
+.formtext{
+    text-align: start;
+    margin-top: 100px;
+    margin-right:210px;
+    color: white;
+    font-weight: bold;
+}
+.formtext h2{
+    font-family: 'futura-pt';
+    font-weight: normal;
+}
+.form{
+    text-align:start;
+    cursor: text;
+}
+.form input{
+    width:273px;
+    height:40px;
+    background:transparent url('../assets/images/Rectangle 71.svg') 0% 0% no-repeat padding-box;
+    border-radius:9px;
+    border:none;
+}
+form input::-webkit-input-placeholder {
+    color: white; 
+    opacity: 1; 
+    font-family:'Avenir LT Std 55 Roman'
+}
+.button{
+    width:97px;
+    height:46px;
+    background-color: #E78200;
+    border:none;
+    border-radius:6px;
+    color:white;
+    font-family: 'futura-pt';
+    font-weight:500;
+    font-size:15px;
+    letter-spacing: 0.5px;
+}
+.jobsearch{
+    width:100%;
+    height:450px;
+}
+.jobinfo{
+    width:100%;
+    display:flex;
+}
+.jobimg{
+    width:50%;
+    height:400px;
+    align-items: center;
+}
+.jobimg img{
+    width: 78%;
+    height: 300px;
+    padding-top: 10%;
+    padding-left: 20%;
+}
+.jobtext{
+    width:50%;
+    color:#ff2424;
+}
+.jobtext h1{
+    padding-top: 13%;
+    width: 66%;
+    font: normal normal normal 39px/51px 'Avenir LT Std 95 Black';
+}
+.buttoncall{
+    width: 150px;
+    height: 46px;
+    color: white;
+    background:#e78200;
+    border:none;
+    border-radius:6px;
+    font-family: 'futura-pt';
+    font-weight:500;
+    font-size:15.5px;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width:900px){
+    .header{
+        margin-top:0;
+    }
+    .signtext{
+        height:130px;
+        margin-left:7%;
+    }
+}
+@media screen and (max-width:600px){
+    .introheader{
+        font-size:30px;
+    }
+    .resumetext{
+        margin-left: 0;
+        padding-top: 30px;
+        width: 85%;
+        padding-left: 0;
+    }
+    .resumetext h1{
+        margin-top: 21%;
+        font-size: 32px;
+    }
+    .resumetext p{
+        width: 75%;
+        font-size: 18px;
+        margin-left:10%;
+        opacity:1;
+    }
+    .skillstext{
+        margin-right: 0;
+        padding-left: 15%;
+        width: 85%;
+        padding-top:40px;
+    }
+    .skillstext h1{
+        margin-left: 0%;
+        margin-top: 21%;
+        font-size: 32px;
+    }
+    .skillstext p{
+        width: 85%;
+        font-size: 18px;
+        margin-left:-8%;
+        opacity:1;
+    }
+    .signup{
+        width:100%;
+        height:500px;
+    }
+    .signupimage{
+        height:100%;
+    }
+    .signtext{
+        margin-top: 20px;
+        width: 358px;
+        text-align: center;
+        height: 150px;
+        margin-left: 15%;   
+    }
+    .signupform{
+        margin-top: -304px;
+    }
+    .formtext{
+        width: 297px;
+        text-align: start;
+        margin-top: -35px;
+        margin-right: 39px;
+        color: white;
+    }
+    .formtext h2{
+        font-family:'futura-pt';
+        font-weight:normal;
+    }
+    .textsignup{
+       margin-top:-29px;
+    }
+    .textsignup p{
+        width: 100%;
+        font: normal normal normal 15px/25px 'Avenir LT Std 55 Roman';
+        opacity: 0.75;
+        letter-spacing: 0.5px;
+        padding-top: 27px;
+        padding-left: 1px;
+    }
+    .jobsearch{
+        height:745px;
+    }
+    .jobinfo{
+        flex-direction: column;
+    }
+    .jobimg{
+        width:100%
+    }
+    .jobimg img{
+        width: 78%;
+        height: 280px;
+        padding-top: 10%;
+        margin-left: -5%;
+    }
+    .jobtext{
+        width:100%;
+    }
+    .jobtext h1{
+        padding-top: 5%;
+        width: 80%;
+        font-size: 38px;
+        padding-left: 10%;
+    }
+    .buttoncall{
+        margin-left:10%;
+    }
+}
+@media screen and (max-width:375px){
+    .introheader{
+        font-size:30px;
+    }
+    .resumetext p{
+        width: 75%;
+        font-size: 18px;
+        margin-left: 10%;
+    }
+    .skillstext p{
+        width: 269px;
+        font-size: 16px;
+        margin-left:-8%;
+        margin-top: -9%;
+    }
+    .skillstext{
+        margin-right:0;
+        padding-left:12%;
+    }
+    .signtext{
+        width:338px;
+    }
+}
+@media screen and (max-width:480px) and (min-width:400px){
+    .skillstext{
+        margin-right:0;
+    }
+    .introheader{
+        font-size:30px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .intro{
+        height:150px;
+    }
+    .skillstext{
+        margin-right:0;
+        padding-top: 11%;
+        padding-left: 30%;
+    }
+    .skillstext p{
+        width:413px;
+    }
+    .signtext{
+        margin-left: 6px;
+        width: 44%;
+        height: 166px;
+        margin-top: 15%;
+    }
+    .formtext{
+        width:297px;
+        margin-right:23px;
+    }
+    .jobtext h1{
+        padding-top: 5%;
+        width: 80%;
+        font-size: 38px;
+        padding-left: 10%;
+    }
+    .buttoncall{
+        margin-left:10%;
+    }
+}
+@media  screen and (min-width : 600px) and (max-width : 603px){
+    .intro{
+        height:150px;
+    }
+}
+@media screen and (max-width:320px){
+    .resumetext p{
+        width: 75%;
+        font-size: 18px;
+        margin-left: 15%;
+        margin-top: -9%;
+    }
+    .resumetext h1{
+        margin-left: 24%;
+        margin-top: 21%;
+        font-size: 30px;
+    }
+    .jobimg img{
+        width: 260px;
+        height: 260px;
+        padding-top: 10%;
+        margin-left: -9%;
+    }
+    .skillstext{
+        margin-right:0;
+    }
+    .skillstext h1{
+        margin-left: -4%;
+        margin-top: 21%;
+        font-size: 19px;
+    }
+    .skillstext p{
+        width: 201px;
+        font-size: 13px;
+        margin-left: -13%;
+        margin-top: -9%;
+    }
+    .signtext{
+        width:308px;
+        margin-left:4%;
+    }
+    .formtext{
+        margin-right:0;
+    }
+}
+@media screen and (max-width:992px) and (min-width:600px){
+    .intro{
+        height:150px;
+    }
+    .skillstext{
+        margin-right:0;
+        padding-top:19%;
+    }
+    .resumetext{
+        padding-top: 19%;
+        width: 85%;
+    }
+    .resumetext p{
+        width:75%;
+    }
+    .signup{
+        margin:0;
+    }
+    .signtext{
+        margin-left:10px;
+    }
+}

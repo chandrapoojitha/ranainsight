@@ -1,0 +1,77 @@
+.schedulecall{
+    width:100%;
+    height:620px;
+    margin-top:-9px;
+    overflow-x: hidden;
+
+}
+.schedulecallimg{
+    width:100%;
+    float:left;
+    height:100%;
+    background: url('../assets/images/schedulecall.png') right no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.schedulecalltext{
+    font: normal normal 900 40px/53px 'Avenir LT Std 95 Black';
+    text-align: center;
+    color: white;
+    padding-top: 7%;
+    width: 63%;
+    padding-left: 19%;
+}
+.schedulebutton{
+    position: relative;
+    height: 150px;
+    text-align:center;
+}
+.buttoncall{
+    width: 14%;
+    height: 50px;
+    color: white;
+    background-color:#e78200;
+    border:none;
+    border-radius:6px;
+    font-family:'futura-pt';
+    font-weight:600;
+    font-size:15px;
+}
+@media screen and (max-width:600px){
+    .schedulecalltext{
+        height: 150px;
+        font: normal normal 900 20px/30px 'Avenir LT Std 95 Black';
+        text-align: center;
+        color: white;
+        width: 73%;
+        padding: 15% 13%;
+    }
+    .schedulebutton{
+        position: relative;
+        height: 150px;
+        text-align:center;
+        margin: 4% 17%;
+    }
+    .buttoncall{
+        width: 43%;
+        height: 40px;
+        color: white;
+        background:transparent url('../assets/images/Rectangle 11.svg') 0% 0% no-repeat padding-box;
+        border:none;
+        border-radius:6px;
+        font-family:'futura-pt';
+        font-weight:500;
+        font-size:14px;
+    }
+}
+@media screen and (max-width:900px) and (min-width:600px){
+    .schedulecalltext{
+        padding-top: 17%;
+        font: normal normal 900 20px/30px 'Avenir LT Std 95 Black';
+        width: 50%;
+        padding-left: 25%;
+    }
+    .buttoncall{
+        width:21%;
+    }
+}

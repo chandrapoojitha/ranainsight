@@ -1,0 +1,734 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://use.typekit.net/bqo2bdj.css");
+@font-face {
+    font-family: 'Avenir LT Std 55 Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/avenir-lt-std-cufonfonts-webfont/AvenirLTStd-Roman.woff') format('woff'),
+    local('Avenir LT Std 55 Roman');
+}
+@font-face {
+    font-family: 'Avenir LT Std 95 Black';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/avenir-lt-std-cufonfonts-webfont/AvenirLTStd-Black.woff') format('woff'),
+    local('Avenir LT Std 95 Black');
+}
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+.part1{
+    width:100%;
+    height:566px;
+    display:flex;
+    margin-top:-8px;
+}
+.part1image{
+    width:100%;
+    float:left;
+    height:100%;
+    background-image: url('../assets/images/Banner.png');
+    background-size: 100% 100%;
+    background-position: center;
+    z-index:-1;
+    position:relative;
+}
+.part1image::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+}
+.part1text{
+    width: 420px;
+    color: white;
+    font:normal normal normal 39px/53px 'Avenir LT Std 95 Black';
+    margin-left: 7%;
+    padding-top: 50px;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility; 
+}
+.part1text2{
+    margin-left: 7%;
+    color: white;
+    font: normal normal normal 17.5px/28px 'Avenir LT Std 55 Roman';
+    width: 433px;
+    position: relative;
+    letter-spacing: 0.3px;
+    opacity:0.75;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility; 
+}
+.schedulebutton{
+    position: relative;
+    height: 150px;
+    margin-top:-111px;
+    margin-left: 7%;
+}
+.buttoncall{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background:#E78200;
+    border:none;
+    border-radius:6px;
+    font-family:'futura-pt';
+    font-weight:600;
+    font-size:15px;
+    opacity:0.85;
+    letter-spacing: 0.5px;
+}
+.part2{
+    align-items: center;  
+    height:645px; 
+    width:100%; 
+    margin-top:50px;
+}
+.heading{
+    text-align: center;
+    margin: 0 auto;
+    color:#FF2424;
+    font:normal normal normal 19px/34px 'Avenir LT Std 95 Black';
+    -webkit-font-smoothing: antialiased;
+}
+.image{
+    display:flex;
+}
+.image img{
+    width:100%;
+    height:320px;
+    border-radius:50%
+}
+.imagepart1{
+    width:50%;
+    float:left;
+}
+.image1{
+    width:50%;
+    float:right;
+    border-radius:50% 50% 0 50%;
+    border:10px #0E1E40 solid;
+    background-color:#0E1E40;
+    margin-right:50px;
+}
+.imagepart2{
+    width:50%;
+    float:right;
+}
+.image2{
+    width:50%;
+    float:left;
+    border-radius:50% 50% 50% 0;
+    border:10px #E78200 solid;
+    background-color:#E78200;
+    margin-left:50px;
+}
+.text1{
+    float:right;
+    color:#002e63;
+}
+.image1text{
+    float:right;
+    margin-right:50px;
+    line-height: 1.5;
+    font-size:15px;
+    color:#0E1E40;
+}
+.image1text h2{
+    font-size:30px;
+    font-family: 'futura-pt-bold';
+    font-style: normal;
+    font-weight: 900;
+    padding-left:13%;
+}
+.image1text ul{
+    list-style: none;
+    margin-top:-18px;
+}
+.image1text li{
+    letter-spacing: 0.5px;
+    font: normal normal normal 18px/26px 'Avenir LT Std 55 Roman';
+    -webkit-font-smoothing: antialiased;
+}
+.image1text  li::before{
+    content: "\2022";
+    color: #0E1E40;
+    font-size: 18px;
+    margin-right: 4px;
+}
+.text2{
+    float:left;
+    color:#0E1E40;
+}
+.image2text{
+    float:left;
+    margin-left:50px;
+    line-height: 1.5;
+    font-size:15px;
+    color:#0E1E40;
+}
+.image2text li{
+    letter-spacing: 0.5px;
+    font: normal normal normal 18px/26px 'Avenir LT Std 55 Roman';
+    -webkit-font-smoothing: antialiased;
+}
+.image2text h2{
+    width:250px;
+    font-size:30px;
+    padding-left:10%;
+    font-family: 'futura-pt-bold';
+    font-style: normal;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+}
+.image2text ul{
+   list-style: none;
+   margin-top:-18px;
+   margin-left: -10px;
+}
+.image2text  li::before{
+   content: "\2022";
+    color: #E78200;
+    font-size: 18px;
+    margin-right: 4px;
+} 
+.part3{
+    width:100%;
+    height:670px;
+    background-color:#0E1E4012;
+    border-radius: 10px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    max-width: calc(23% - 1em);
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    opacity: 0.85;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 42px;
+}
+.card img{
+    height:200px;
+    border-radius: 42px 42px 0px 0px;
+}  
+.card p{
+    color: #0E1E40;
+    font: normal normal 500 16.5px/22px 'Avenir LT Std 55 Roman';
+    padding: 11px;
+    margin-top: -28px;
+    -webkit-font-smoothing: antialiased;
+}  
+.container {
+    padding: 2px 16px;
+    text-align:center;
+}
+.container h4{
+    font-family: 'futura-pt-bold';
+    font-size: 20px;
+    margin-top: 1%;
+}
+.testimonial{
+    width: 100%;
+    height: 780px;
+}
+.testcards{
+    width:100%;
+    display:flex;
+    height:530px;
+}
+.testcard1{
+    width:50%;
+}
+.testcard2{
+    width:50%;
+}
+.textcard1{
+    width: 73%;
+    height: 100%;
+    margin-right: 7%;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 42px;
+    float: right;
+}
+.textcard2{
+    width: 73%;
+    height:100%;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 42px;
+    float:left;
+}
+.images{
+    display: flex;
+    height: 81px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.images span{
+    padding-top: 11px;
+    margin-left: -17%;
+    width: 20%;
+    position: relative;
+    font-size: 24px;
+    color: #0E1E40;
+    font-weight: 900;
+    font-family: 'futura-pt-bold';
+}
+.testimage1{
+    width: 40%;
+    text-align-last: start;
+    margin-left: 6%;
+}
+.testimage2{
+    width: 40%;
+    text-align-last: end;
+    margin-left: 17px;
+}
+.textcontainer{
+    margin-top: -74px;
+    padding: 4%;
+}
+.textcontainer p{
+    font:normal normal normal 17px/25px 'Avenir LT Std 55 Roman';
+    color:#0E1E40;
+    font-weight: lighter;
+    text-align: left;
+    padding: 20px;
+}
+@media  screen and (max-width:600px) {
+    body{
+        width:100%;
+        margin:0 auto;
+    }  
+    .part1text{
+        width: 80%;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 600;
+        margin-left: 15px;
+        padding-top: 25%;
+        position: relative;
+    }
+    .part1text2{
+        margin-left: 13px;
+        color: #fff;
+        font-size: 12px;
+        width: 80%;
+        padding-bottom: 30px;
+        position: relative;
+    }
+    .schedulebutton{
+        margin-top:-28%;
+        width:45%;
+    }
+    .buttoncall{
+        width:100%;
+    }
+    .part2{
+        height:100%;
+    }
+    .heading{
+        width: 100%;
+        font-size: 15px;
+    }
+    .image{
+        flex-direction:column;
+    }
+    .image img{
+        width:100%;
+        height:180px;
+        border-radius:50%
+    }
+    .image1{
+        width: 50%;
+        float: left;
+        border-radius: 50% 50% 0 50%;
+        border: 10px #0E1E40 solid;
+        background-color: #0E1E40;
+        margin-left: 20%;
+    }
+    .imagepart1{
+        width: 100%;
+       
+    }
+    .imagepart2{
+        width: 100%;
+        float: left;
+    }
+    .text1{
+        width: 100%;
+        float: left;
+        color: #002e63;
+    }
+    .image1text{
+        width: auto;
+        float: left;
+        margin-left: 14%;
+        font-size: 9px;
+        margin-right: 0;
+    }
+    .image1text h2{
+        width:100%;
+        font-size: 22px;
+    }
+    .image1text ul{
+        margin-top: -8px;
+        font-size:9px;
+    }
+    .image1text li{
+        font: normal normal normal 14px/26px Avenir LT Std\ 55 Roman;
+    }
+    .text2{
+        width:100%;
+        float:left;
+    }
+    .image2{
+        margin-left:20%;
+    }
+    .image2text{
+        width: auto;
+        float: left;
+        margin-left: 20%;
+        line-height: 1.5;
+        font-size: 9px;
+    }
+    .image2text h2{
+        width:auto;
+        font-size: 22px;
+        padding-left: 9%;
+    }
+    .image2text ul{
+        margin-top: -8px;
+        margin-left: -8%;
+        font-size: 9px;
+    }
+    .image2text li{
+        font: normal normal normal 14px/26px Avenir LT Std\ 55 Roman;
+    }
+    .part3{
+        width:100%;
+        display: grid;
+        height:100%;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        max-width: calc(94% - 1em);
+        margin-bottom:20px;
+        height:fit-content;
+    }
+    .card p{
+        color: #0E1E40;
+        font-size:17px;
+    }
+    .part3image1{
+        width:100%;
+    }
+    .part3image2{
+        width:100%;  
+    }
+    .part3image3{
+        width:100%; 
+    }
+    .part3image4{
+        width:100%; 
+    }
+    .testimonial{
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .testcards{
+        width:100%;
+        flex-direction: column;
+        height:100%;
+    }
+    .testcard1{
+        width:100%;
+    }
+    .testcard2{
+        width:100%;
+    }
+    .textcard1{
+        background-color: white;
+        width: 86%;
+        height: 100%;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 42px;
+        margin: 27px;
+    }
+    .textcard2{
+        background-color: white;
+        width: 86%;
+        height: 100%;
+        margin-left: 22px;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 42px;
+    }
+    .textcontainer p{
+        font: normal normal normal 15px/25px 'Avenir LT Std 55 Roman';
+    }
+}
+@media screen and (max-width:480px) and (min-width:400px){
+    .schedulebutton{
+        margin-top:-37%;
+    }
+    .image1text li{
+        font: normal normal normal 15px/26px Avenir LT Std\ 55 Roman;
+    }
+    .image2text li{
+        font: normal normal normal 15px/26px Avenir LT Std\ 55 Roman;
+    }
+}
+@media screen and (min-width:480px) and (max-width:600px){
+    .image1text{
+        margin-top:-34%;
+        margin-right:24%;
+    }
+}
+@media screen and (max-width:375px){
+    .schedulebutton{
+        margin-top:-36%;
+    }
+    .signtext{
+        width:338px;
+    }
+}
+
+@media  screen and (max-width : 603px) and (min-width:600px){
+    .part3{
+        width:100%;
+        display: grid;
+        height:100%;
+    }
+    .part1text{
+        width: 244px;
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+        margin-left: 15px;
+        padding-top: 12%;
+        position: relative;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        max-width: calc(94% - 1em);
+        margin-bottom:20px;
+    }
+    .testimonial{
+        height:1400px;
+    }
+    .textcard1{
+        width:90%;
+        height:400px;
+    }
+    .textcard2{
+        width:90%;
+        height:400px;
+    }
+    .imagepart1{
+        margin-left: -35%;
+    }
+    .imagepart2{
+        margin-top: 36%;
+    }
+    .text1{
+        margin-top: -30%;
+        margin-left: -20%;
+    }
+    .image1text{
+        margin-right:11%;
+    }
+    .image2text{
+        padding-left: 8%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    .part3text1{
+        font-size: 12px;
+    }
+    .part1text{
+        width: 285px;
+        color: white;
+        font-size: 27px;
+        font-weight: 600;
+        margin-left: 7%;
+        padding-top: 14%;
+        position: relative;
+    }
+    .part1text2{
+        width: 337px;
+        margin-left: 7%;
+        font: normal normal normal 14.5px/23px 'Avenir LT Std 55 Roman';
+    }
+    .textabout1{
+        margin-left:0;
+        font-size:13px;
+    }
+    .part2{
+        margin-top:50px;
+    }
+    .part3{
+        height:100%;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height:100%;
+        padding-bottom:20px;
+    }
+    .card {
+        max-width: calc(46% - 1em);
+        margin-bottom:20px;
+        height:fit-content;
+    }
+    .image img{
+        width:250px;
+        height:250px;
+        border-radius:50%
+    }
+    .image1{
+        width:250px;
+    }
+    .image1text{
+        margin-right:0;
+    }
+    .image1text li{
+        font: normal normal normal 16px/26px 'Avenir LT Std 55 Roman';
+    }
+    .image2{
+        width:250px;
+    }
+    .image2text{
+        margin-left:0;
+    }
+    .image2text li{
+        font: normal normal normal 16px/26px 'Avenir LT Std 55 Roman';
+    }
+    .schedulebutton{
+        margin-top: -15%;
+    }
+    .card p{
+        font-size: 22px;
+        padding: 20px;
+        line-height: 1.2;
+    }
+    .testimonial{
+        height:100%;
+    }
+    .testcards{
+        height:100%;
+        padding-bottom:20px;
+    }
+    .textcard1{
+        width:87%;
+        height:720px;
+    }
+    .textcard2{
+        width:87%;
+        height:720px;
+    }
+    .testimage2{
+        margin-left:-3%;
+    }
+    .images span{
+        margin-left: -10%;
+    }  
+    .textcontainer p{
+        font: normal normal normal 14px/25px 'Avenir LT Std 55 Roman';
+        padding:4%;
+    } 
+}
+@media screen and (max-width:320px){
+    .image1text{
+        font-size: 7px;
+    }
+    .signtext{
+        width: 100%;
+        margin-left: 15px;
+        height: 100%;
+    }
+    .signup{
+        height:700px;
+    }
+    .image1text h2{
+        font-size:16px;
+    }
+    .image1text ul li::before{
+        font-size:8px;
+    }
+    .image2text{
+        font-size:7px;
+        margin-left: 14%;
+    }
+    .image2text h2{
+        font-size:16px;
+    }
+    .image2text ul li::before{
+        font-size:8px;
+    }
+    .images span{
+        font-size:18px;
+        margin-left:0;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1200px){
+    .part3text1{
+        font-size:16px;
+    }
+    .part3{
+        height:100%;
+        padding-bottom:20px;
+    }
+    .card{
+        max-width: calc(22% - 1em);
+        height: inherit;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        opacity: 0.85;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 42px;
+    }
+    .formtext{
+        width:297px;
+    }
+    .card p{
+        font: normal normal normal 18px/25px 'Avenir LT Std 55 Roman';
+        padding: 3%;
+    }
+    .testimonial{
+        height:900px;
+    }
+    .testcards{
+        height:700px;
+    }
+}
+
+@media  screen and  (min-device-width:600px) and (max-device-width:992px) {
+    .part1{
+        display:flex;
+        overflow:hidden;
+    }
+    
+    .part3text1{
+        margin-left:22px;
+    }
+    .card img{
+        height:300px;
+    }
+}
+

@@ -1,0 +1,18 @@
+.refundpolicy{
+    margin:5% 8%;
+}
+.refundpolicy h1{
+    text-align: center;
+    color:#ff2424;
+    font-family:'Avenir LT Std 95 Black'
+}
+.refundpolicy p{
+    color: #0E1E40;
+    font:normal normal normal 20px/28px 'Avenir LT Std 45 Book';
+}
+.refundpolicy h2{
+    text-align:left;
+    color: #0E1E40;
+    font-family:'Avenir LT Std 95 Black';
+}
+

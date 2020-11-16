@@ -1,0 +1,210 @@
+.footer{
+    background-color: #0E1E40;
+    height:100%;
+    width:100%;
+}
+.menu{
+    width:100%;
+    display:flex;
+}
+.info{
+    width: 50%;
+    padding-top: 40px;
+    float: right;
+    margin-left: 30%;
+}
+.information{
+    width: 222px;
+    padding-left: 19%;
+    padding-top: 0;
+}
+.information h4{
+    font-size:27px;
+    color:#e78200;
+    font-weight:600; 
+}
+.infotext{
+    width: 110px;
+    padding-left: 40%;
+    margin-top: -49px;
+    color:white;
+    font-family:'futura-pt';
+    font-size:23px;
+}
+.infotext2{
+    width: 131px;
+    padding-left: 40%;
+    margin-top: -60px;
+    color:white;
+    font-family:'futura-pt';
+    font-size:23px;
+}
+.contact{
+    padding-top:0;
+}
+.video{
+    padding-top:28%;
+}
+.list{
+    width: 50%;
+    padding-top: 40px;
+    padding-left:2%;
+}
+.list ul{
+    display:grid;
+    padding-left:27%;
+    margin-top:-4%;
+}
+.list li{
+    list-style: none;
+    color: white;
+    padding-top: 21px;
+    font:normal normal normal 19px/21px 'Avenir LT Std 55 Roman'; 
+}
+.list a{
+    text-decoration: none;
+    color:white;
+}
+
+.list h4{
+    font-size:27px;
+    color:#e78200;
+    padding-left:27%;
+    font-weight:600; 
+}
+.copyright{
+    position:relative;
+    z-index:2;
+    margin-top: 4%;
+    color:white;
+    text-decoration: underline;;
+    text-align: center;
+    padding-bottom:20px;
+}
+.icons{
+    position: relative;
+    z-index: 1;
+    margin-top: -86px;
+    float: right;
+    width: 60%;
+    margin-right: 12%;
+    text-align: center;
+    padding-right: 6%;
+}
+.icons ul{
+    padding:0;
+}
+.icons h4{
+    font-size:27px;
+    color:#e78200;
+    padding-top:0;
+    padding-left:27%;
+    font-weight:600; 
+}
+.icons li{
+    list-style: none;
+    margin-top:-5px;
+}
+.icons a::-moz-selection{
+    color:#ff2424;
+}
+.icons img{
+    padding:10px;
+}
+
+@media screen and (max-width:600px){
+    .footer{
+        height:100%;
+    }
+    .menu{
+        display:grid;
+    }
+    .list{
+        width:100%;
+        padding-left:0;
+    }
+    .list li{
+        font-size:16px;
+    }
+    .info{
+        width:100%;
+        margin-left:0;
+    }
+    .information{
+        width:auto;
+        padding-bottom:50px;
+        padding-left: 27%;
+    }
+    .infotext{
+        padding-left:0;
+        margin-top:0;
+    }
+    .infotext2{
+        padding-left:0;
+        margin-top:0;
+    }
+    .icons{
+        text-align: center;
+        float: none;
+        margin-right: 0;
+        margin-top: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:320px){
+    .infotext{
+        font-size:16px;
+    }
+    .infotext2{
+        margin-left:-8%;
+        font-size:16px;
+    }
+    .menu{
+        display:grid;
+    }
+}
+@media  screen and (max-width : 603px) and (min-width:600px){
+    .information{
+        width:115px;
+    }
+    .icons{
+        text-align:center;
+        float:none;
+        margin-right:0;
+    }
+    
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .footer{
+        height:100%;
+    }
+    .list ul{
+        margin-top:-27px;
+    }
+    .icons{
+        padding-top: 40px;
+    }
+    .info{
+        margin-left:5%;
+    }
+    .infotext{
+        padding-left: 28%;
+    }
+    .infotext2{
+        padding-left: 28%;
+    }
+    .information{
+        width:auto;
+        padding-left:13%;
+    }
+    .icons{
+        width: 100%;
+        float: right;
+        margin-top: 0;
+        margin-right: 0;
+        text-align: center;
+        padding: 0;
+    }
+}

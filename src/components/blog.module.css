@@ -1,0 +1,126 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js');
+.blog{
+    margin:2% 15% 2% 15%;
+    height:100%;
+}
+.intro{
+    width: 100%;
+    height: 98px;
+    background-color: #364a61;
+    margin-top: -44px;
+}
+.introheader{
+    width: 100%;
+    text-align: center;
+    position:relative;
+    font-size:30px;
+    font-weight:500;
+}
+.introheader p{
+    color: #e78200;
+    padding-top: 13px;
+    width: 59%;
+    padding-left: 21%;
+    text-align: center;
+}
+.blogs{
+    display: grid;
+    grid-gap: 50px;
+    width: 100%;
+    grid-template-columns: auto auto auto ;
+    height: 100%;
+}
+.allposts{
+    margin: 20px 15% 1px 15%;
+    display:none;
+}
+.allposts a{
+    text-decoration: none;
+    color: red;
+    display:none;
+}
+.blogtitle{
+    width: 100%;
+    height:200px;
+    
+}
+.blogtext h1:hover{
+    color:red;
+}
+.image{
+    width:100%;
+    height:200px;
+}
+.blogpost{
+    width: 100%;
+    display: flex;
+    margin-bottom: 6%;
+    height: 100%;
+    margin-right: 20px;
+}
+.postblog{
+    display:grid;
+    width:100%;
+}
+.blogtext{
+    width: 100%;
+    display: grid;
+    margin-left: 8px;
+    margin-top: 0;
+    height: 200px;
+    text-align: center;
+    
+}
+.blogtext h1{
+    color:red;
+    font-family: 'Avenir LT Std 95 Black';
+    text-transform: capitalize;
+}
+.blogtext p{
+    margin-top:0;
+    color:#0E1E40;
+}
+@media screen and (max-width:600px){
+    .introheader{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .introheader p{
+        color: #e78200;
+        padding-top: 38px;
+        width: 85%;
+        padding-left: 8%;
+        text-align: center;
+    }
+    .blog{
+        height:100%
+    }
+    .blogs{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:603px) and (max-width:992px){
+    .introheader{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .introheader p{
+        padding-top:28px;
+    }
+    .blogtext a{
+        font-size:14px;
+    }
+    .blog{
+        margin:2% 6% 2% 6%;
+        height:100%;
+    }
+}

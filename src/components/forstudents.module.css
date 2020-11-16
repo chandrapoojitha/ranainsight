@@ -1,0 +1,537 @@
+@font-face {
+    font-family: 'Avenir LT Std 45 Book';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/avenir-lt-std-cufonfonts-webfont/AvenirLTStd-Book.woff') format('woff'),
+    local('Avenir LT Std 45 Book');
+}
+.intro{
+    width: 100%;
+    height: 111px;
+    background-color: #364a61;
+}
+.introheader{
+    width: 100%;
+    padding-top:12px;
+    text-align: center;
+    margin-top:-16px;
+    position:relative;
+    font-size:38px;
+    font-family:'futura-pt';
+    font-weight:500;
+}
+.introheader p{
+    margin-top:11px;
+}
+.clgapplication{
+    width:100%;
+    height:500px;
+    display:flex;
+}
+.applicationimg{
+    width:100%;
+    height:100%;
+    background: url('../assets/images/collegeapplication.png') right no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position:relative;
+    margin-top:-17px;
+}  
+.applicationtext{
+    position: relative;
+    float: left;
+    padding-top: 5%;
+    padding-left: 3%;
+    width: 30%;
+}
+.applicationtext h1{
+    font: normal normal normal 40px/53px 'Avenir LT Std 95 Black';
+    margin-left: 13%;
+    width: 100%;
+}
+.applicationtext p{
+    width: 523px;
+    font:   normal normal normal 18.5px/30px 'Avenir LT Std 45 Book';
+    padding: 23px;
+    color: white;
+    margin-left: 10%;
+    margin-top: -4%;
+    opacity:0.75;
+}
+.skills{
+    width:100%;
+    height:500px;
+    display:flex;
+}
+.skillsimg{
+    width:100%;
+    height:100%;
+    background: url('../assets/images/skills.png') right no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position:relative;
+    margin-top:-17px;
+}
+.skillstext{
+    position: relative;
+    float: right;
+    padding-top: 143px;
+    width: 50%;
+}
+.skillstext h1{
+    color: white;
+    font: normal normal 900 40px/53px 'Avenir LT Std 95 Black';
+    margin-left: 5%;
+}
+.skillstext p{
+    width: 75%;
+    font:   normal normal normal 18.5px/30px 'Avenir LT Std 55 Roman';
+    padding: 23px;
+    margin-left: 2%;
+    margin-top: -5%;
+    color: white;
+    opacity:0.75;
+}
+.study{
+    width:100%;
+    height:500px;
+}
+.studyimg{
+    width:100%;
+    height:100%;
+    background: url('../assets/images/guidance.png') right no-repeat;
+    background-size: contain;
+    margin-top:-43px;
+    align-items: center;
+}
+.studytext{
+    float:left;
+    padding-top:7%;
+    margin-left:0;
+}
+.studytext h1{
+    font: normal normal 900 40px/53px 'Avenir LT Std 95 Black';
+    margin-left: 20%;
+    color:#ff2424;
+    width:100%;
+}
+.studytext p{
+    width: 438px;
+    font:   normal normal normal 18.5px/30px 'Avenir LT Std 55 Roman';
+    padding: 23px;
+    color: #0E1E40;
+    margin-left: 16%;
+    margin-top: -4%;
+}
+.jobsearch{
+    width:100%;
+    height:580px;
+}
+.jobinfo{
+    width:100%;
+    display:flex;
+}
+.jobimg{
+    width:50%;
+    height:400px;
+    align-items: center;
+}
+.jobimg img{
+    width: 350px;
+    height: 350px;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.jobtext{
+    width:50%;
+    color:#ff2424;
+}
+.jobtext h1{
+    padding-top: 13%;
+    width: 64%;
+    font: normal normal 900 40px/53px 'Avenir LT Std 95 Black';
+}
+.buttoncall{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background: #e78200;
+    border: none;
+    border-radius: 6px;
+    font-family: 'futura-pt';
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.signup{
+    width:100%;
+    height:450px;
+}
+.signupimage{
+    width:100%;
+    height:100%;
+    background-image: url('../assets/images/signupimg.png');
+    background-size: cover;
+    background-position: center;
+}
+.signuptext{
+    text-align:center;
+    position:relative;
+    float:left;
+    display:flex;
+}
+.signtext{
+    width: 430px;
+    height: 180px;
+    background: transparent url('../assets/images/Rectangle.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color:white;
+    border-radius:10px;
+    margin-left: 11%;
+    margin-top: 22%;
+}
+.textsignup{
+    color: white;
+    font-weight: lighter;
+    padding-top: 0;
+}
+.textsignup p{
+    width: 85%;
+    padding: 27px;
+    font: normal normal normal 15px/25px 'Avenir LT Std 55 Roman';
+    opacity:0.75;
+    letter-spacing: 0.5px;
+}
+.signupform{
+    text-align: center;
+    position: relative;
+    float: right;
+    height: 100%;
+    margin-top: -447px;
+}
+.formtext{
+    text-align: start;
+    margin-top: 100px;
+    margin-right:210px;
+    color: white;
+}
+.formtext h2{
+    font-family: 'futura-pt';
+    font-weight: normal;
+}
+.form{
+    text-align:start;
+    cursor: text;
+}
+.form input{
+    width:273px;
+    height:40px;
+    background:transparent url('../assets/images/Rectangle 71.svg') 0% 0% no-repeat padding-box;
+    border-radius:9px;
+    border:none;
+}
+form input::-webkit-input-placeholder {
+    color: white; 
+    opacity: 1; 
+    font-family:'Avenir LT Std 55 Roman';
+    opacity:0.85
+}
+.button{
+    width: 97px;
+    height: 46px;
+    background-color: #E78200;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-family: 'futura-pt';
+    font-weight: 500;
+    font-size: 15.5px;
+    letter-spacing: 0.5px;
+}
+@media screen and (max-width:600px){
+    .introheader{
+        font-size: 30px;
+    }
+    .introheader p{
+        margin-top:3px;
+    }
+    .applicationtext{
+        margin-left: 0;
+        width: 83%;
+    }
+    .applicationtext h1{
+        margin-top: 21%;
+        font-size: 29px;
+        width: 100%;
+    }
+    .applicationtext p{
+        width: 100%;
+        font-size: 18px;
+        margin-left:6%;
+        opacity:1;
+    }
+    .skillstext{
+        margin-right: 0;
+        padding-left: 13%;
+        float: left;
+        width: 83%;
+        padding-top: 35px;
+    }
+    .skillstext h1{
+        margin-left: 0%;
+        margin-top: 21%;
+        font-size: 32px;
+    }
+    .skillstext p{
+        width: 93%;
+        font-size: 18px;
+        margin-left: -5%;
+        opacity:1;
+    }
+    .study{
+        width:100%;
+        height:500px;
+    }
+    .studyimg{
+        width:100%;
+        height:100%;
+        background: url('../assets/images/guidance.png') right no-repeat;
+        background-size: 100% 100%;
+        margin-top:-43px;
+        align-items: center;
+    }
+    .studytext{
+        float:left;
+        padding-top: 30%;
+        margin-left: -2%;
+    }
+    .studytext h1{
+        font: normal normal normal 25px/44px 'Avenir LT Std 95 Black';
+        margin-left: 11%;
+        color: #ff2424;
+        width: 77%;
+    }
+    .studytext p{
+        width: 75%;
+        font: normal normal normal 18px/23px 'Avenir LT Std 55 Roman';
+        padding: 23px;
+        color: #0E1E40;
+        margin-left: 6%;
+        margin-top: -4%;
+    
+    }
+    .signup{
+        width:100%;
+        height:500px;
+    }
+    .signupimage{
+        height:100%;
+    }
+    .signtext{
+        margin-top: 20px;
+        width: 358px;
+        text-align: center;
+        height: 150px;
+        margin-left: 15%;   
+    }
+    .signupform{
+        margin-top: -304px;
+    }
+    .formtext{
+        width: 297px;
+        text-align: start;
+        margin-top: -35px;
+        margin-right: 39px;
+        color: white;
+    }
+    .formtext h2{
+        font-weight:normal;
+    }
+    .textsignup{
+       margin-top:-29px;
+    }
+    .textsignup p{
+        width: 100%;
+        font: normal normal normal 15px/25px 'Avenir LT Std 55 Roman';
+        opacity: 0.75;
+        letter-spacing: 0.5px;
+        padding-top: 27px;
+        padding-left: 1px;
+    }
+    .jobsearch{
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .jobinfo{
+        flex-direction: column;
+    }
+    .jobimg{
+        width:100%
+    }
+    .jobimg img{
+        width: 280px;
+        height: 280px;
+        padding-top: 10%;
+        margin-left: -5%;
+    }
+    .jobtext{
+        width:100%;
+    }
+    .jobtext h1{
+        margin-top: -14%;
+        width: 80%;
+        font-size: 36px;
+        padding-left: 10%;
+    }
+    .buttoncall{
+        margin-left:10%;
+    }
+}
+@media screen and (max-width:384px){
+    .introheader{
+        font-size:30px;
+    }
+    .applicationtext p{
+        width: 88%;
+        font-size: 18px;
+        margin-left: 6%;
+    }
+    .skillstext p{
+        width: 100%;
+        font-size: 18px;
+        margin-left: -8%;
+        margin-top: -9%;
+    }
+    .skillstext{
+        margin-right: 0;
+        padding-left: 12%;
+        float: left;
+        width: 79%;
+    }
+    .signtext{
+        width:338px;
+    }
+}
+@media screen and (max-width:320px){
+    .applicationtext p{
+        width: 100%;
+        font-size: 13px;
+        margin-left: 9px;
+        margin-top: -9%;
+    }
+    .applicationtext h1{
+        margin-top: 21%;
+        font-size: 26px;
+    }
+    .jobimg img{
+        width: 260px;
+        height: 260px;
+        padding-top: 10%;
+        margin-left: -9%;
+    }
+    .skillstext{
+        margin-right:0;
+    }
+    .skillstext h1{
+        margin-left: -4%;
+        margin-top: 21%;
+        font-size: 25px;
+    }
+    .skillstext p{
+        width: 201px;
+        font-size: 15px;
+        margin-left: -13%;
+        margin-top: -9%;
+    }
+    .signtext{
+        width:308px;
+        margin-left:4%;
+    }
+    .formtext{
+        margin-right:0;
+    }
+    .studytext h1{
+        font: normal normal 900 29px/53px Avenir LT Std;
+        margin-left: 13%;
+        color: #ff2424;
+    }
+    .studytext p{
+        width: 75%; 
+        font: normal normal normal 13px/20px Avenir LT Std;
+    }
+    .jobtext h1{
+        font-size:29px;
+    }
+}
+@media screen and (max-width:480px) and (min-width:400px){
+    .introheader{
+        font-size:30px;
+    }
+    .skillstext h1{
+        margin-left:16%;
+    }
+    .skillstext p{
+        margin-left:10%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .signtext{
+        margin-left: 6px;
+        width: 44%;
+        height: 166px;
+        margin-top: 15%;
+    }
+    .studyimg{
+        margin-top:-95px;
+    }
+    .studytext{
+        padding-top:17%;
+    }
+    .studytext p{
+        width: 343px;
+        font: normal normal normal 16px/20px Avenir LT Std;
+        padding: 23px;
+        color: #0E1E40;
+        margin-left: 10%;
+        margin-top: -4%;
+    }
+    .studytext h1{
+        margin-left: 15%;
+    }
+    .formtext{
+        width:297px;
+        margin-right:23px;
+    }
+    .jobtext h1{
+        padding-top: 14%;
+        width: 80%;
+        font-size: 38px;
+        padding-left: 10%;
+    }
+    .buttoncall{
+        margin-left:10%;
+    }
+    .jobimg img{
+        width: 280px;
+        height: 280px;
+        padding-left: 20%;
+        padding-top: 14%;
+    }
+}
+@media screen and (max-width:992px) and (min-width:600px){
+    .skillstext{
+        margin-right:0;
+        padding-top: 11%;
+        padding-left: 29%;
+    }
+    .resumetext{
+        margin-left: 7%;
+        padding-top: 19%;
+    }
+    .signup{
+        margin:0;
+    }
+    .signtext{
+        margin-left:10px;
+    }
+}

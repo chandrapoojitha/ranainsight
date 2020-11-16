@@ -1,0 +1,72 @@
+.featureblog{
+    margin:4% 15% 8% 15%;
+    height:100%;
+}
+.featureposts{
+    margin: 20px 15% 1px 15%;
+}
+.featureposts a{
+    text-decoration: none;
+    color: red;
+}
+.featuretitle{
+    width: 50%;
+    height:300px;
+}
+.featuretext h1:hover{
+    color:red;
+}
+.featureimage{
+    width:100%;
+    height:100%
+}
+.featurepost{
+    width:100%;
+    display:flex;
+    height:300px;
+    margin-bottom: 6%;
+}
+.featuretext{
+    width: 45%;
+    display: grid;
+    margin-left: 32px;
+}
+.featuretext h1{
+    color:red;
+    font-family: 'Avenir LT Std 95 Black';
+    text-transform:capitalize;
+}
+.featuretext p{
+    margin-top:37px;
+    color:#0E1E40;
+}
+@media screen and (max-width:600px){
+    .featurepost{
+        width: 100%;
+        display: grid;
+        height: 600px;
+        margin-bottom: 6%;
+    }
+    .featuretitle{
+        width:100%;
+    }
+    .featuretext{
+        width:100%;
+        margin-left:0;
+    }
+    .featuretext h1{
+        font-size:25px;
+    }
+}
+@media screen and (min-width:603px) and (max-width:992px){
+    .featuretext h1{
+        font-size:26px;
+    }
+    .featureblog{
+        margin:4% 6% 8% 6%; 
+    }
+    .featuretext p{
+        margin-top:18px;
+        color:#0E1E40;
+    }
+}

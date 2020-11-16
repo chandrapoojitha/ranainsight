@@ -1,0 +1,92 @@
+.contactus{
+    width:100%;
+    height:900px;
+    margin-top:-9px;
+}
+.contactusimg{
+    width:100%;
+    float:left;
+    height:100%;
+    background: url('../assets/images/contactus.png') right no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.contactustext{
+    text-align: center;
+    padding-top: 4%;
+}
+.contactustext h2{
+    color:white;
+    font: normal normal 900 40px/53px 'Avenir LT Std 95 Black';
+}
+.contactustext p{
+    color: white;
+    text-align: center;
+    padding-left: 38%;
+    width: 24%;
+    font: normal normal normal 17px/25px 'Avenir LT Std 45 Book';
+}
+.contactform{
+    align-content: center;
+    margin-top:0;
+}
+.contactform form{
+    margin:10% 32%;
+    text-align:center;
+}
+input::-webkit-input-placeholder {
+    color: white; 
+    opacity: 0.85; 
+    font-family:'Avenir LT Std 55 Roman'
+}
+.contactform input{
+    width: 100%;
+    height: 34px;
+    border-radius: 7px;
+    border: none;
+    color:white;
+    background: url('../assets/images/contactbg.png') right no-repeat;
+    padding-left:10px;
+}
+textarea{
+    width:100%;
+    height:86px;
+    border-radius:12px;
+    border: none;
+    color:white;
+    resize:none;
+    background: url('../assets/images/contactbg.png') right no-repeat;
+}
+textarea::placeholder {
+    color: white; 
+    opacity: 0.85; 
+    font-family:'Avenir LT Std 55 Roman';
+    position:relative;
+    top:10px;
+}
+.button{
+    width: 90px;
+    height: 46px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    background: #e78200;
+    font-family: 'futura-pt';
+    font-size: 15px;
+    font-weight: 600;
+}
+@media screen and (max-width:600px){
+    .contactform form{
+        margin:10% 22%;
+    }
+    .contactustext{
+        padding-top:16%;
+    }
+    .contactustext p{
+        padding-left: 23%;
+        width: 55%;
+    }
+    .contactform input{
+        width:100%;
+    }
+}

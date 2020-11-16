@@ -1,0 +1,61 @@
+.faq{
+    width:100%;
+    height:350px;
+    display:flex;
+    margin-top:-8px;
+}
+.faqimage{
+    width:100%;
+    float:left;
+    height:100%;
+    background-image: url('../assets/images/faqimage.png');
+    background-size: 100% 100%;
+    background-position: center;
+    z-index:-1;
+    position:relative;
+}
+.faqheading{
+    color: white;
+    font:normal normal normal 39px/44px 'Avenir LT Std 95 Black';
+    margin-left: 7%;
+    padding-top: 8%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility; 
+}
+.questions{
+    margin:5% 8%;
+}
+.questions h3{
+    padding-left:3%;
+    color: #0E1E40;
+    font:normal normal normal 30px/32px 'Avenir LT Std 55 Roman';
+}
+.questions li{
+    list-style: none;
+    color: #0E1E40;
+    font:normal normal normal 20px/30px 'Avenir LT Std 45 Book';
+    margin-left: 17px;
+}
+.questions li::before{
+    content: "\2022";
+    color: #0E1E40;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: -19px;
+}
+@media screen and (max-width:600px){
+    .faqheading{
+        padding-top:23%;
+    }
+}
+@media screen and (max-width:900px) and (min-width:600px){
+    .faqheading{
+        padding-top:18%;
+    }
+}
+@media screen and (max-width:1030px) and (min-width:900px){
+    .faqheading{
+        padding-top:12%;
+    }
+}
